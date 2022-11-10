@@ -148,7 +148,11 @@ body{
     color: var(--primary-text-color);
 }
 
-.team-list-item {
+.team-section {
+    background-color: var(--secondary-background-color);
+}
+
+.team-list-item{
     background-color: var(--primary-background-color);
 }
 
