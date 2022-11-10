@@ -7,6 +7,7 @@
     --hero-footer-background-color: #2F303A;
     --accent: #2196F3;
     --footer-contact-link-color: rgba(255, 255, 255, 0.6);
+    --btn-accent-color: #188CE8;
 }
 
 body{
@@ -36,7 +37,7 @@ body{
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--accent);
 }
 
 .header-logo > span{  
@@ -93,7 +94,7 @@ body{
 
 .btn:hover,
 .btn:focus{
-    background: #188CE8;
+    background: var(--btn-accent-color);
 }
 
 .visually-hidden{
@@ -147,7 +148,7 @@ body{
     color: var(--primary-text-color);
 }
 
-.team-list {
+.team-list-item {
     background-color: var(--primary-background-color);
 }
 
